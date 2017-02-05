@@ -1,7 +1,7 @@
 const ENV_VARS = {
-  ORG: "${SLACK_ORG}",
-  TOKEN: "${SLACK_API_TOKEN}",
-  EMAILS: ""
+  ORG: '${SLACK_ORG}',
+  TOKEN: '${SLACK_API_TOKEN}',
+  EMAILS: ''
 }
 
 module.exports = ENV_VARS
