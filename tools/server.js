@@ -38,10 +38,12 @@ if (!org || !token) {
   flags.emails = emails
 }
 
+flags.interval = 1000
+
 const port = flags.port
 const hostname = flags.hostname
 
 slackin(flags).listen(port, hostname, function (err) {
   if (err) throw err
-  if (!flags.silent) console.log('%s â€“ listening on %s:%d', new Date, hostname, port)
+  if (!flags.silent) console.log('%s – listening on %s:%d', new Date, hostname, port)
 })
