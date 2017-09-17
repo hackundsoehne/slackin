@@ -1,5 +1,7 @@
-_fork from [slackin](https://github.com/rauchg/slackin)_
+_Fork from [slackin](https://github.com/rauchg/slackin)_
 
-# slack invite bot for hackundsoehne
+# Slack invite bot for Hack & Söhne
 
-automatically sends invites to join hs-community slack channel
+Automatically send invites to join Hack & Söhne slack channel.
+
+Join slack here: https://slack.hackundsoehne.de
